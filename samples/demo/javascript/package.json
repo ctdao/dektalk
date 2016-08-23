@@ -1,0 +1,26 @@
+{
+  "name": "NodeServerDemo",
+  "version": "0.1.0",
+  "description": "NodeServerDemo",
+  "main": "nodeServerDemo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deklab/dektalk"
+  },
+  "keywords": [
+    "WebRTC"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.4.8"
+  },
+  "bugs": {
+    "url": "https://github.com/deklab/dektalk/issues"
+  },
+  "homepage": "https://github.com/deklab/dektalk"
+}
