@@ -10,18 +10,19 @@
 
 ## Description
 
-This is a sample code written in JavaScript to introduce WebRTC [webrtc].
-It supports Opera, Chrome and Firefox Browser.
+This is a sample code written in JavaScript to introduce [WebRTC]. It supports Opera, Chrome and Firefox Browser.
 
-In this sample, WebSocket is used for exchanging signalling data. Once tradeoff between peers is made, an end-to-end data channel is set up to deliver voice, video and data.
+In this example, WebSocket is used for exchanging signalling data. Once tradeoff between peers is made, an end-to-end data channel is set up to deliver voice, video and data.
 
 ## Usage
 
-Firstly, you need to install NodeJS. Please see [nodejs] for more detail.
+Firstly, you need to install NodeJS. See [NodeJS] for more details.
 
 Then, check out the source code
 
+```
 git clone https://github.com/deklab/dektalk.git
+```
 
 Next, install `express` and `socket.io` using `npm`
 
@@ -32,7 +33,9 @@ npm install --save socket.io
 
 You are now ready to run the server.
 
+```
 node nodeServerDemo.js
+```
 
 ## How it works
 
@@ -46,7 +49,7 @@ The normal steps:
 
 ## Notes
 
-This is an introduction about WebRTC. If you prefer other framework, feel free to extend this.
+This is an introduction about WebRTC. If you prefer other frameworks, feel free to extend this.
 
 ## Issues
 
@@ -60,5 +63,5 @@ This work is released under a MIT license.
 
 Truc C. Dao
 
-[nodejs]: https://nodejs.org
-[webrtc]: https://www.webrtc.org
+[NodeJS]: https://nodejs.org
+[WebRTC]: https://www.webrtc.org
