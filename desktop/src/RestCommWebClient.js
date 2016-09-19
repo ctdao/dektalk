@@ -863,12 +863,20 @@ var RestCommClient = {
 
 			// Once https://github.com/Mobicents/webrtcomm/issues/24 is fixed we can remove these lines and pass down registrar and domain to webrtcomm
 			if (!parameters['registrar'] || parameters['registrar'] == "") {
-				console.log("Device::setup(): registrar has not been provided. Defaulting to wss://cloud.restcomm.com:5063");
-				parameters['registrar'] = 'wss://cloud.restcomm.com:5063';
+				console.log("Device::setup(): registrar has not been provided");
+				//parameters['registrar'] = 'wss://cloud.restcomm.com:5063';
+				/*
+				 * For the web secured socket- wss- we have to wait for our server support it
+				 * Currently, we can only use the web socket "ws"
+				 */
+				parameters['registrar'] = 'ws://dektalk.homenet.org:5082';
+				console.log("Default registrar: " + parameters['registrar']);
 			}
 			if (!parameters['domain'] || parameters['domain'] == "") {
-				console.log("Device::setup(): domain has not been provided. Defaulting to cloud.restcomm.com");
-				parameters['domain'] = 'cloud.restcomm.com';
+				console.log("Device::setup(): domain has not been provided");
+				//parameters['domain'] = 'cloud.restcomm.com';
+				parameters['domain'] = 'dektalk.homenet.org';
+				console.log("Default domain: " + parameters['domain']);
 			}
 
 			// setup WebRTClient

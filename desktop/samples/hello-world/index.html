@@ -72,8 +72,8 @@
 
 		var parameters = {
 			'debug': true,
-			'username': 'web-sdk',
-			'password': '1234',
+			'username': 'dektalk', // Any user id which you can login for testing
+			'password': 'dektalk',
 		};
 
 		// In order to use RestCommWebClient you first to setup the Device with parameters set above
@@ -97,8 +97,8 @@
 		// When user presses Dial, this function is called that makes the actuall call
 		function call() {
 			var parameters = {
-				'username': '+1235@cloud.restcomm.com',  // CHANGEME: update the IP address to your Restcomm instance 
-				'video-enabled': false,  // should we use WebRTC video or WebRTC audio only?
+				'username': 'alice@dektalk.homenet.org',  // CHANGEME: update the IP address to your Restcomm instance 
+				'video-enabled': false,  // should we use WebRTC video or WebRTC audio only? true for video call enabled
 				'local-media': localMedia,
 				'remote-media': remoteMedia,
 			};
