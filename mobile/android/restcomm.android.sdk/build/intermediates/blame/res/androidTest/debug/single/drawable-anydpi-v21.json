@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/ic_videocam_24dp.xml",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/bundles/debug/res/drawable-anydpi-v21/ic_videocam_24dp.xml"
+    },
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/ic_phone_missed_24dp.xml",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/bundles/debug/res/drawable-anydpi-v21/ic_phone_missed_24dp.xml"
+    },
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/ic_mic_off_24dp.xml",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/bundles/debug/res/drawable-anydpi-v21/ic_mic_off_24dp.xml"
+    },
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/ic_mic_24dp.xml",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/bundles/debug/res/drawable-anydpi-v21/ic_mic_24dp.xml"
+    },
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/ic_call_24dp.xml",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/bundles/debug/res/drawable-anydpi-v21/ic_call_24dp.xml"
+    },
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/ic_chat_24dp.xml",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/bundles/debug/res/drawable-anydpi-v21/ic_chat_24dp.xml"
+    },
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/ic_phone_in_talk_24dp.xml",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/bundles/debug/res/drawable-anydpi-v21/ic_phone_in_talk_24dp.xml"
+    },
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/ic_call_end_24dp.xml",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/bundles/debug/res/drawable-anydpi-v21/ic_call_end_24dp.xml"
+    }
+]

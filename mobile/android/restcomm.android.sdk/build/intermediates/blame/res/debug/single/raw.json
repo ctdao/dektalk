@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/debug/raw/ringing_sample.mp3",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/src/main/res/raw/ringing_sample.mp3"
+    },
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/debug/raw/message_sample.mp3",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/src/main/res/raw/message_sample.mp3"
+    },
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/debug/raw/busy_tone_sample.mp3",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/src/main/res/raw/busy_tone_sample.mp3"
+    },
+    {
+        "merged": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/build/intermediates/res/merged/debug/raw/calling_sample.mp3",
+        "source": "/Users/ctdao/Projects/dektalk/mobile/android/restcomm.android.sdk/src/main/res/raw/calling_sample.mp3"
+    }
+]
