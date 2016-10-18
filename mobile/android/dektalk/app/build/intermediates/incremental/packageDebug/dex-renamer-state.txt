@@ -1,7 +1,0 @@
-#Thu Oct 13 22:53:33 ICT 2016
-base.0=/Users/ctdao/Projects/dektalk/mobile/android/dektalk/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_11311d1d112e725b8910b3681adfe311ebcfa8a7
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/ctdao/Projects/dektalk/mobile/android/dektalk/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_70f3f1b2b24f09a1aaf3489e763423db394675b5/classes.dex
-base.1=/Users/ctdao/Projects/dektalk/mobile/android/dektalk/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_70f3f1b2b24f09a1aaf3489e763423db394675b5
-file.0=/Users/ctdao/Projects/dektalk/mobile/android/dektalk/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_11311d1d112e725b8910b3681adfe311ebcfa8a7/classes.dex
