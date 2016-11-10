@@ -1,3 +1,6 @@
 [submodule "mobile/ios/restcomm-ios-sdk"]
 	path = mobile/ios/restcomm-ios-sdk
 	url = https://github.com/RestComm/restcomm-ios-sdk
+[submodule "mobile/android/restcomm-android-sdk"]
+	path = mobile/android/restcomm-android-sdk
+	url = https://github.com/RestComm/restcomm-android-sdk
