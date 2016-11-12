@@ -1,4 +1,4 @@
-package com.telestax.restcomm_helloworld;
+package au.com.dektech.dektalk;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
