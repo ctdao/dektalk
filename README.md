@@ -5,19 +5,51 @@ It includes a desktop and mobile version which allow easy peer-to-peer communica
 - Project details
 - Download
 
-Get Started:
+## Table of Contents
+
+* [Get Started](#get-started)
+* [Get Involved](#get-involved)
+* [Learn More](#learn-more)
+* [Get the Latest News](#get-the-latest-news)
+
+## Get Started:
 - **Demo**
 - **User guides**
 
-Get Involved:
+To clone the repo with submodules
+```
+git clone --recursive https://github.com/deklab/dektalk.git
+```
+If you have already cloned this repo, you will need to initialze submodule
+```
+git submodule init
+```
+Now, you can fetch all data with submodules
+```
+git submodule update
+```
+To get submodules up-to-date with upstream project
+```
+git submodule update --remote
+```
+To push together with submodules
+```
+git push --recurse-submodules=on-demand origin master
+```
+To show submodules' changes
+```
+git diff --submodule
+```
+
+## Get Involved:
 - **Contribute Code**
-- **Share Featur Ideas**
+- **Share Features' Ideas**
 - **Troubleshooting**
 
-Learn More:
+## Learn More:
 - **WebRTC** - https://webrtc.org
 
-Get the Latest News:
+## Get the Latest News:
 - **Twitter**
 - **Facebook**
 - **Email**
