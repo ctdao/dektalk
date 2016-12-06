@@ -1,0 +1,46 @@
+<html ng-app="app">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="JavaScript, WebRTC" />
+  <meta name="description" content="RestComm WebRTC SDK" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+  <title>DEKTALK Web Application</title>
+
+  <!-- Include adapter.js to handle WebRTC differences between browsers -->
+  <script type="text/javascript" src='scripts/adapter.js'></script>
+  <!-- Include the JAIN SIP lib -->
+  <script type="text/javascript" src='scripts/jain-sip.js'></script>
+  <!-- Include the low level WebRTComm lib that sits on top of JAIN SIP and provides WebRTC media and SIP signaling facilities  -->
+  <script type="text/javascript" src='scripts/WebRTComm.js'></script>
+  <!-- Include the high level Restcomm Web library that sits on top of WebRTComm.js and provides an easy to use, a Twilio compatible API -->
+  <script type="text/javascript" src='scripts/RestCommWebClient.js'></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+  <!--link href="css/app.css" rel="stylesheet" /-->
+
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash"
+          ng-bind="flash.message"></div>
+        <div ng-view></div>
+      </div>
+    </div>
+  </div>
+  <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="//code.angularjs.org/1.2.20/angular.js"></script>
+  <script src="//code.angularjs.org/1.2.20/angular-route.js"></script>
+  <script src="//code.angularjs.org/1.2.13/angular-cookies.js"></script>
+
+  <script src="scripts/app.js"></script>
+  <script src="login/login.controller.js"></script>
+  <script src="home/home.controller.js"></script>
+  <script src="authentication/authentication.service.js"></script>
+</body>
+
+</html>
