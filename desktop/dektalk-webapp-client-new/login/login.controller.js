@@ -5,7 +5,7 @@
         .module('app')
         .controller('LoginController', LoginController);
 
-    //LoginController.$inject = ['$location', 'AuthenticationService', 'FlashService'];
+    LoginController.$inject = ['$location'];
     function LoginController($location) {
         var vm = this;
 
@@ -13,10 +13,11 @@
 
         function login() {
             vm.dataLoading = true;
+            var res = vm.username.split("@");
             var parameter = {
                 'debug': true,
                 'username': vm.username,
-                'password': vm.password
+                'password': res[0]
             };
             RestCommClient.Device.setup(parameter);
 

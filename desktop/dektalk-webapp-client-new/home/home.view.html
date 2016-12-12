@@ -1,23 +1,9 @@
-<div class="global-wrapper" ng-app="myApp">
-
-  <!-- nav section -->
-  <nav class="navbar navbar-default" ng-controller="navCtrl">
-    <div class="container-fluid">
-      <div class="nav-header">
-        <a href="#" class="navbar-brand hidden-xs">Angular Exercise</a>
-        <ul class="nav navbar-nav">
-          <li ng-repeat="navLink in nav.navItems" ng-class="{active : $index === nav.selectedIndex}">
-            <a class="text-center" ng-click="nav.navClick($index)" ng-href="#/{{navLink}}">{{navLink}}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<div class="global-wrapper" ng-app="app">
 
   <div class="container">
     <div class="row panel panel-primary" ng-controller="homeCtrl">
       <div class="panel-heading">
-        <h2 class="panel-title">angular contact list app</h2>
+        <h2 class="panel-title">Contacts list</h2>
       </div>
 
 
